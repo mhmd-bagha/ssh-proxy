@@ -40,7 +40,7 @@ find_ssh_delete(){
       echo "--------------------------------"
       printf "\n Server: %s   Username: %s \n \n" $server $username
       echo "--------------------------------"
-      read -p ":: Are You Sure Delete? [y/n] " yno
+      read -p ":: Are you sure want to delete this proxy? [y/n] " yno
       case $yno in
       "y"|"yes") sudo sed -i "s/$getSsh//g" $pathFile
       sudo sed -i '/^[[:space:]]*$/d' $pathFile

@@ -14,7 +14,7 @@ start() {
   echo "              ------------------------------------------"
   printf "                        Welcome To Ssh Proxy... \n \n                        Please Select A Number!... \n"
   echo "              ------------------------------------------"
-  printf "\n [1] Add Proxy \n [2] Get Proxy \n [3] Delete Proxy \n \n "
+  printf "\n [1] Add a Proxy \n [2] Connect to a Proxy \n [3] Delete a Proxy \n \n "
   read -p 'Number: ' number_proxy
   case $number_proxy in
   1) addProxy ;;
